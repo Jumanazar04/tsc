@@ -1,2 +1,6 @@
-let a = 'John Doe';
-console.log(a);
+let a: string = "Hello";
+let b: number = 123;
+let c: boolean = true;
+
+
+let d: object = {}
