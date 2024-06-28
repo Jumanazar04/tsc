@@ -51,3 +51,23 @@ let User_3: User = {
     email: 'jane@gmail.com',
     isMarried: true,
 }
+
+// <--------------------------------------------------- Task-3 -------------------------------------------->
+
+function sum(a: number, b:number, c:number): number {
+    let result = (a + b)*c ;
+    return result;
+}
+
+console.log(sum(12, 23, 10));
+
+function Hello(str1: string, str2: string): string{
+    return str1 + ' ' + str2;
+}
+
+console.log(Hello('Hello', 'Everyone'));
+
+function myArr(arr: object): any{
+    return `My name is ${User_1.firstName}. My age ${User_1.age}`
+}
+
